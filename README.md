@@ -10,7 +10,7 @@ The credits of the website design goes to [Behance](https://www.behance.net/gall
 
 [Live Link](https://medibook-ui.vercel.app/login)
 
-## Back End
+## Back-end
 
 [medibook-api](https://github.com/medi-book/medibook-api.git)
 
@@ -43,13 +43,13 @@ Then run:
 
 ## Authors
 
-👤 \*_Ifza Rasool_
+👤 **Ifza Rasool**
 
 - GitHub: [@IfzaRasool](https://github.com/IfzaRasool)
 - Twitter [@IfzaRasool](https://twitter.com/Ifza15011319)
 - LinkedIn [@IfzaRasool](https://www.linkedin.com/in/ifza-arain/)
 
-👤 \*_Sodiq_
+👤 **Sodiq Aderibigbe**
 
 - GitHub: [@deyemiobaa](https://github.com/deyemiobaa)
 - Twitter [@deyemiobaa](https://twitter.com/deyemiobaa)
