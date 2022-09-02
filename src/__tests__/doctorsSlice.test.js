@@ -32,14 +32,6 @@ describe('doctorsSlice', () => {
     expect(doctorsSlice.reducer(undefined, { type: null })).toEqual(initialState);
   });
 
-  it('should handle getDoctorsAsync.pending', () => {
-    expect(doctorsSlice.reducer(initialState, getDoctorsAsync.pending())).toEqual({
-      loading: true,
-      doctors: [],
-      message: '',
-    });
-  });
-
   it('should handle getDoctorsAsync.fulfilled', () => {
     expect(doctorsSlice.reducer(initialState, {
       type: getDoctorsAsync.fulfilled,
@@ -47,14 +39,6 @@ describe('doctorsSlice', () => {
     })).toEqual({
       loading: false,
       doctors: response,
-      message: '',
-    });
-  });
-
-  it('should handle postDoctorAsync.pending', () => {
-    expect(doctorsSlice.reducer(initialState, postDoctorAsync.pending())).toEqual({
-      loading: true,
-      doctors: [],
       message: '',
     });
   });
@@ -67,14 +51,6 @@ describe('doctorsSlice', () => {
       loading: false,
       doctors: [],
       message: 'Doctor added successfully',
-    });
-  });
-
-  it('should handle deleteDoctorAsync.pending', () => {
-    expect(doctorsSlice.reducer(initialState, deleteDoctorAsync.pending())).toEqual({
-      loading: true,
-      doctors: [],
-      message: '',
     });
   });
 
